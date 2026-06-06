@@ -5,37 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My webpage</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="/app.js" defer></script>
 </head>
 <body>
     <main id="mainpart">
         <h1>Weather App</h1>
-        <form action="/submit">
+        <form>
             <fieldset>
                 <legend>LOOK UP</legend>
-                Choose City: <input name="city" type="text">
-                <input type="submit" value="View">
+                Choose City: <input id="city" type="text">
+                <input id="button" type="submit" value="View">
             </fieldset> <br>
 
         </form>
         <table>
-            <tr><th> City Name</th><th>Tempreture</th><th>Wind</th><th>Humidity</th></tr>
-            <tr><td>.</td><td>.</td><td>.</td><td>.</td></tr>
+            <tr><th> City Name</th><th>Temperature</th><th>Wind</th><th>Humidity</th></tr>
+            <tr><td id="name">.</td><td id="temp">.</td><td id="winds">.</td><td id="humid">.</td></tr>
         </table>
         <br> <h2>Top 10 Cities</h2>
-        <p1>Vancouver</p1> <br>
-        <p1> Toronto </p1> <br>
-        <p1> Edmonton </p1> <br>
-        <p1> Charlottetown </p1> <br>
-        <p1> Kelowna </p1> <br>
-        <p1> Kamloops </p1> <br>
-        <p1> Saskatoon </p1> <br>
-        <p1> Nanaimo </p1> <br> 
-        <p1> Prince George </p1> <br>
-        <p1> Halifax </p1> <br>
+        <p>Vancouver</p> 
+        <p>Toronto</p>
+        <p>Edmonton</p> 
+        <p>Charlottetown</p>
+        <p>Kelowna</p> 
+        <p>Kamloops</p> 
+        <p>Saskatoon</p> 
+        <p>Nanaimo</p> 
+        <p>Prince George</p>
+        <p>Halifax</p>
     </main>
     <footer>
-        <p1 id="status"></p1>
-        <p1 id="error"></p1>
+        <br><p id="error"></p><br>
     </footer>
 </body>
 </html>

@@ -18,8 +18,8 @@ legend, fieldset {
     border: 2px solid purple;
 }
 
-a {
-    background-color: cyan;
+p {
+    color: purple;
 }
 
 table, th, td {
