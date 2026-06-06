@@ -6,5 +6,5 @@ Aveer Seikhon
 June 5, 2026
 
 Disclaimer for this project I used help from ai tools for some of the logic in 
-app.js regarding extracting coordinates and data from the api urls and the structure
-of the arguments in the event listener function.
+app.js regarding extracting coordinates and data from the api urls and how to structure
+the arguments in the event listener function.
